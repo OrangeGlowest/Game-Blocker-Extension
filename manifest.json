@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Game Blocker",
+  "version": "1.3",
+  "description": "A Extension that blocks games",
+  "background": {
+    "service_worker": "program6.js"
+  },
+  "permissions": [
+    "activeTab",
+    "identity",
+    "scripting"
+    
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
